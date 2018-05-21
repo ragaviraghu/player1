@@ -22,7 +22,7 @@ for(int i=0;i<n;i++)
 for(int j=i+1;j<n;j++)
 {
 if(b[i]==b[j])
-count1++;
+count2++;
 }
 }
 if(count1==count2)
