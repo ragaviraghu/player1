@@ -17,7 +17,11 @@ if(a[i]!=b[i])
 count++;
 }
 }
-if(count==1)
+if(count==0)
+{
+cout<<"Strings are same"<<endl;
+}
+else if(count==1)
 {
 cout<<"Yes(strings differ by only one character)"<<endl;
 }
